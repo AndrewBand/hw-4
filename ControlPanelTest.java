@@ -1,4 +1,6 @@
-class ControlPanelTest {
+package module4.hw4;
+
+public class ControlPanelTest {
     public static void main(String[] args) {
         new ControlPanel().control();
     }
