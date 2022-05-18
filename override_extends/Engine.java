@@ -59,8 +59,8 @@ public class Engine {
         AdvancedXFuelEngine engine = new AdvancedXFuelEngine();
         engine.setPower(1000);
         engine.setSerialNumber("SN504030");
-        System.out.println("engine.printInfo() = " ); //Serial number is SN504030, power is 1000
+        System.out.print("engine.printInfo() = " ); //Serial number is SN504030, power is 1000
         engine.printInfo();
-        engine.printInfo();
+
     }
 }
